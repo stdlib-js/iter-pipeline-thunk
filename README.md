@@ -231,7 +231,7 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 
 [mdn-iterator-protocol]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Iteration_protocols#The_iterator_protocol
 
-[@stdlib/utils/papply]: https://github.com/stdlib-js/stdlib
+[@stdlib/utils/papply]: https://github.com/stdlib-js/utils-papply
 
 </section>
 
