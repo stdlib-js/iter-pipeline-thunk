@@ -188,7 +188,7 @@ console.log( '%d of %d', count, N );
 
 ## See Also
 
--   <span class="package-name">[`@stdlib/iter/pipeline`][@stdlib/iter/pipeline]</span><span class="delimiter">: </span><span class="description">create an iterator pipeline.</span>
+-   <span class="package-name">[`@stdlib/iter-pipeline`][@stdlib/iter/pipeline]</span><span class="delimiter">: </span><span class="description">create an iterator pipeline.</span>
 
 </section>
 
