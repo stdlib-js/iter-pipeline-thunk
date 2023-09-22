@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import iterThunk from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-pipeline-thunk@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/iter-pipeline-thunk/tags). For example,
+
+```javascript
 import iterThunk from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-pipeline-thunk@v0.1.0-deno/mod.js';
 ```
 
@@ -126,7 +131,7 @@ import iterHead from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-head@deno/mod.j
 import iterMap from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-map@deno/mod.js';
 import iterSome from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-some@deno/mod.js';
 import iterPipeline from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-pipeline@deno/mod.js';
-import iterThunk from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-pipeline-thunk@v0.1.0-deno/mod.js';
+import iterThunk from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-pipeline-thunk@deno/mod.js';
 
 function threshold( r ) {
     return ( r > 0.95 );
