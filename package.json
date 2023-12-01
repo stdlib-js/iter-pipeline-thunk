@@ -44,7 +44,7 @@
   },
   "devDependencies": {
     "@stdlib/array-to-iterator": "^0.1.0",
-    "@stdlib/bench": "^0.2.0",
+    "@stdlib/bench": "^0.2.1",
     "@stdlib/iter-head": "^0.1.0",
     "@stdlib/iter-map": "^0.1.1",
     "@stdlib/iter-pipeline": "^0.1.0",
