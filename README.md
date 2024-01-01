@@ -45,30 +45,14 @@ limitations under the License.
 
 <!-- Package usage documentation. -->
 
-<section class="installation">
 
-## Installation
-
-```bash
-npm install @stdlib/iter-pipeline-thunk
-```
-
-Alternatively,
-
--   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
--   If you are using Deno, visit the [`deno` branch][deno-url].
--   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
-
-The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
-
-</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-var iterThunk = require( '@stdlib/iter-pipeline-thunk' );
+import iterThunk from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-pipeline-thunk@esm/index.mjs';
 ```
 
 #### iterThunk( iterFcn\[, ...args] )
@@ -76,8 +60,8 @@ var iterThunk = require( '@stdlib/iter-pipeline-thunk' );
 Returns an [iterator][mdn-iterator-protocol] "thunk".
 
 ```javascript
-var array2iterator = require( '@stdlib/array-to-iterator' );
-var iterSome = require( '@stdlib/iter-some' );
+import array2iterator from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-to-iterator@esm/index.mjs';
+import iterSome from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-some@esm/index.mjs';
 
 var thunk = iterThunk( iterSome, 3 );
 
@@ -136,13 +120,18 @@ Accordingly, this function implements left-to-right [partial application][@stdli
 
 <!-- eslint no-undef: "error" -->
 
-```javascript
-var randu = require( '@stdlib/random-iter-randu' );
-var iterHead = require( '@stdlib/iter-head' );
-var iterMap = require( '@stdlib/iter-map' );
-var iterSome = require( '@stdlib/iter-some' );
-var iterPipeline = require( '@stdlib/iter-pipeline' );
-var iterThunk = require( '@stdlib/iter-pipeline-thunk' );
+```html
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<script type="module">
+
+import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-iter-randu@esm/index.mjs';
+import iterHead from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-head@esm/index.mjs';
+import iterMap from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-map@esm/index.mjs';
+import iterSome from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-some@esm/index.mjs';
+import iterPipeline from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-pipeline@esm/index.mjs';
+import iterThunk from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-pipeline-thunk@esm/index.mjs';
 
 function threshold( r ) {
     return ( r > 0.95 );
@@ -177,6 +166,10 @@ for ( i = 0; i < N; i++ ) {
     console.log( bool );
 }
 console.log( '%d of %d', count, N );
+
+</script>
+</body>
+</html>
 ```
 
 </section>
@@ -214,7 +207,7 @@ console.log( '%d of %d', count, N );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -276,11 +269,11 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 
 [mdn-iterator-protocol]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Iteration_protocols#The_iterator_protocol
 
-[@stdlib/utils/papply]: https://github.com/stdlib-js/utils-papply
+[@stdlib/utils/papply]: https://github.com/stdlib-js/utils-papply/tree/esm
 
 <!-- <related-links> -->
 
-[@stdlib/iter/pipeline]: https://github.com/stdlib-js/iter-pipeline
+[@stdlib/iter/pipeline]: https://github.com/stdlib-js/iter-pipeline/tree/esm
 
 <!-- </related-links> -->
 
