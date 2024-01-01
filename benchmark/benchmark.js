@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var bench = require( '@stdlib/bench' );
+var bench = require( '@stdlib/bench-harness' );
 var isFunction = require( '@stdlib/assert-is-function' );
 var iterSome = require( '@stdlib/iter-some' );
 var pkg = require( './../package.json' ).name;
