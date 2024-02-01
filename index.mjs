@@ -1,0 +1,4 @@
+// Copyright (c) 2024 The Stdlib Authors. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+/// <reference types="./index.d.ts" />
+import t from"https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-function@v0.1.1-esm/index.mjs";import r from"https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-iterator-like@v0.1.1-esm/index.mjs";import e from"https://cdn.jsdelivr.net/gh/stdlib-js/string-format@v0.1.1-esm/index.mjs";function s(s){var i,n,o;if(!t(s))throw new TypeError(e("invalid argument. First argument must be a function. Value: `%s`.",s));for(n=arguments.length,i=[],o=1;o<n;o++)i.push(arguments[o]);return a;function a(t){var o,a;if(!r(t))throw new TypeError(e("invalid argument. Must provide an iterator. Value: `%s`.",t));for(o=[t],a=0;a<n;a++)o.push(i[a]);return s.apply(null,o)}}export{s as default};
+//# sourceMappingURL=index.mjs.map
