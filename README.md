@@ -100,12 +100,12 @@ function iterFcn( iterator[, ...args] ) {...}
 
 where
 
--   **iterator**: an [iterator][mdn-iterator-protocol]
--   **...args**: additional [iterator][mdn-iterator-protocol] function arguments
+-   **iterator**: an [iterator][mdn-iterator-protocol].
+-   **...args**: additional [iterator][mdn-iterator-protocol] function arguments.
 
 The returned function expects a single argument
 
--   **iterator**: an [iterator][mdn-iterator-protocol]
+-   **iterator**: an [iterator][mdn-iterator-protocol].
 
 and invokes `iterFcn` with the provided [iterator][mdn-iterator-protocol] and any previously provided `args`.
 
@@ -233,7 +233,7 @@ See [LICENSE][stdlib-license].
 
 ## Copyright
 
-Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
+Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 </section>
 
